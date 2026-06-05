@@ -1,0 +1,31 @@
+src/app/
+├── core/                          # Singletons, guards, interceptors, config
+│   ├── guards/
+│   ├── interceptors/
+│   └── services/
+├── shared/                        # Reusable UI (buttons, cards, table, pipes...)
+│   ├── components/
+│   ├── ui/
+│   └── shared.providers.ts        # (optional)
+├── public/                        # Front Office (Marketing, Shop, Landing...)
+│   ├── pages/
+│   │   ├── home/
+│   │   ├── about/
+│   │   └── products/
+│   ├── components/
+│   ├── public.routes.ts
+│   └── public.layout.component.ts
+├── admin/                         # Back Office (Private Dashboard)
+│   ├── pages/
+│   │   ├── dashboard/
+│   │   ├── users/
+│   │   └── products/
+│   ├── layout/
+│   │   └── admin-layout.component.ts
+│   ├── features/                  # Optional sub-features
+│   └── admin.routes.ts
+├── auth/                          # Login, Register
+│   └── auth.routes.ts
+├── app.routes.ts                  # Main routing (lazy loads everything)
+├── app.component.ts
+└── app.config.ts                  # Bootstrap config (providers)

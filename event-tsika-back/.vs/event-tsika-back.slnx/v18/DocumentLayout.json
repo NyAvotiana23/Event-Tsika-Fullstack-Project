@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\projet-perso\\event-tsika-back\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50A3038E-CCAB-4029-9BCF-14D6483541DE}|event-tsika-back\\event-tsika-back.csproj|d:\\projet-perso\\event-tsika-back\\event-tsika-back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50A3038E-CCAB-4029-9BCF-14D6483541DE}|event-tsika-back\\event-tsika-back.csproj|solutionrelative:event-tsika-back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A3038E-CCAB-4029-9BCF-14D6483541DE}|event-tsika-back\\event-tsika-back.csproj|d:\\projet-perso\\event-tsika-back\\event-tsika-back\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50A3038E-CCAB-4029-9BCF-14D6483541DE}|event-tsika-back\\event-tsika-back.csproj|solutionrelative:event-tsika-back\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\projet-perso\\event-tsika-back\\event-tsika-back\\Program.cs",
+              "RelativeDocumentMoniker": "event-tsika-back\\Program.cs",
+              "ToolTip": "D:\\projet-perso\\event-tsika-back\\event-tsika-back\\Program.cs",
+              "RelativeToolTip": "event-tsika-back\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T18:35:12.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\projet-perso\\event-tsika-back\\event-tsika-back\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "event-tsika-back\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\projet-perso\\event-tsika-back\\event-tsika-back\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "event-tsika-back\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T18:35:00.22Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
