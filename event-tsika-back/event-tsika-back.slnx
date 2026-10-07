@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="event-tsika-back.Tests/event-tsika-back.Tests.csproj" />
   <Project Path="event-tsika-back/event-tsika-back.csproj" />
 </Solution>
