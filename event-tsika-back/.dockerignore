@@ -1,0 +1,6 @@
+**/bin/
+**/obj/
+**/.vs/
+**/*.db*
+event-tsika-back.Tests/
+Dockerfile

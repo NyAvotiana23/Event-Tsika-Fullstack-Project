@@ -1,0 +1,21 @@
+# Lancement : copier .env.example vers .env, renseigner JWT_KEY, puis `docker compose up --build`.
+services:
+  back:
+    build: ./event-tsika-back
+    environment:
+      Jwt__Key: ${JWT_KEY:?JWT_KEY est requis (32 caractères minimum), voir .env.example}
+      Platform__CommissionRate: ${COMMISSION_RATE:-0.05}
+    volumes:
+      - db-data:/data
+    restart: unless-stopped
+
+  front:
+    build: ./event-tsika
+    ports:
+      - "${WEB_PORT:-8080}:80"
+    depends_on:
+      - back
+    restart: unless-stopped
+
+volumes:
+  db-data:
