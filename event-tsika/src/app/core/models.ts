@@ -1,11 +1,6 @@
 export type Role = 'Participant' | 'Organizer';
 export type EventCategory =
-  | 'Culture'
-  | 'Sport'
-  | 'Education'
-  | 'Entertainment'
-  | 'Professional'
-  | 'Charity';
+  'Culture' | 'Sport' | 'Education' | 'Entertainment' | 'Professional' | 'Charity';
 export type ReservationStatus = 'Confirmed' | 'Cancelled';
 
 export const CATEGORY_LABELS: Record<EventCategory, string> = {
