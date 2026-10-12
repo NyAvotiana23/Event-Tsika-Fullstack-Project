@@ -1,8 +1,4 @@
 import { RenderMode, ServerRoute } from '@angular/ssr';
 
-export const serverRoutes: ServerRoute[] = [
-  {
-    path: '**',
-    renderMode: RenderMode.Prerender
-  }
-];
+// Les pages dépendent de l'API et de la session : rendu côté client uniquement (voir docs/DECISIONS.md, ADR-006).
+export const serverRoutes: ServerRoute[] = [{ path: '**', renderMode: RenderMode.Client }];
